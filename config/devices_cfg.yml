@@ -1,0 +1,84 @@
+- common:
+    globals:
+        env: test
+        platformName: Android
+        Platform: Android
+        appPackage: com.langlib.ncee
+        appActivity: com.langlib.ncee.ui.main.SplashActivity
+        appkey: CEE_AA8F55B916AB
+        appversion: '10003000'
+        AppSecret: 3DB5159C-EB1E-47FE-8584-47115EF5E443
+        App: cee
+        Host_test: appncee.langb.cn
+        Host_cus: appncee.langlib.com
+        loginUrl_test: https://proxy.langb.cn
+        loginProxy_test: proxy.langb.cn
+        loginUrl_cus: https://proxy.langlib.com
+        loginProxy_cus: proxy.langlib.com
+        Host: None
+        loginUrl: None
+        loginProxy: None
+        User-Agent: okhttp/3.11.0
+
+- vivox6:
+    appium_url:
+        url: http://127.0.0.1:4723/wd/hub
+    account:
+        uname: t-1102-02@t.com
+        pwd: 111111
+        loginUrl_test: https://proxy.langb.cn
+        loginProxy_test: proxy.langb.cn
+        loginUrl_cus: https://proxy.langlib.com
+        loginProxy_cus: proxy.langlib.com
+    desired_caps:
+        platformName:
+        platformVersion: '6.0.1'
+        deviceName: 33ea8e00
+        udid: 33ea8e00
+        appPackage:
+        appActivity:
+        unicodeKeyboard: True
+        resetKeyboard: True
+    headers:
+        Platform:
+        appkey:
+        appversion:
+        AppSecret:
+        App:
+        Host:
+        Connection: Keep-Alive
+        Accept-Encoding: gzip
+        User-Agent:
+        accesstoken:
+
+
+- OPPOR11:
+    appium_url:
+        url: http://127.0.0.1:4727/wd/hub
+    account:
+        uname: t-1102-01@t.com
+        pwd: 111111
+        loginUrl_test: https://proxy.langb.cn
+        loginProxy_test: proxy.langb.cn
+        loginUrl_cus: https://proxy.langlib.com
+        loginProxy_cus: proxy.langlib.com
+    desired_caps:
+        platformName:
+        platformVersion: '7.1.1'
+        deviceName: b265aa34
+        udid: b265aa34
+        appPackage:
+        appActivity:
+        unicodeKeyboard: True
+        resetKeyboard: True
+    headers:
+        Platform:
+        appkey:
+        appversion:
+        AppSecret:
+        App:
+        Host:
+        Connection: Keep-Alive
+        Accept-Encoding: gzip
+        User-Agent:
+        accesstoken:
